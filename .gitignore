@@ -1,0 +1,10 @@
+#environments variables
+.env
+
+.vscode
+
+.terraform.*
+.terraform 
+*.tfstate
+kubeconfig.yaml
+*.backup
