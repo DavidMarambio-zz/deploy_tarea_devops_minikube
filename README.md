@@ -99,7 +99,7 @@ NAME                                        DESIRED   CURRENT   READY   AGE
 replicaset.apps/python-project-6c8fcb649c   1         1         1       77m
 ```
 
-Una vez identificamos el pod, debemos realizar el pord-forward.
+Una vez identificamos el pod, debemos realizar el port-forward.
 
 ```
 kubectl port-forward -n python-project pod/python-project-6c8fcb649c-t82lb 8000:8000 
